@@ -4,7 +4,7 @@
   "private": true,
   "repository":"https://github.com/mackadelic/vue-test.git",
   "scripts": {
-    "start": "webpack -p & node server.js"
+    "start": "cd node_modules/webpack/bin & webpack -p & cd ../../../ & node server.js"
   },
   "main": "server.js",
   "dependencies": {
