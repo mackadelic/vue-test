@@ -1,0 +1,35 @@
+{
+  "auth0":{ 
+    "id":"0bdUDrdtUY0giSKDiesTGk7HhHSsXnWh",
+    "domain":"mackadelic.eu.auth0.com"
+  },
+  "development": {
+    "username": "postgres",
+    "password": "vbc7lh*r",
+    "database": "test",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres",
+    "define": {
+       "timestamps": false
+   }
+  },
+  "test": {
+    "username": "update me",
+    "password": null,
+    "database": "update me",
+    "host": "update me",
+    "dialect": "update me"
+  },
+  "production": {
+    "username": "adminpvn5l3c",
+    "password": "v7YHeZKXL4H2",
+    "database": "expressapp",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres",
+    "define": {
+       "timestamps": false
+     }
+  }
+}
