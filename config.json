@@ -22,11 +22,12 @@
     "dialect": "update me"
   },
   "production": {
-    "username": "adminpvn5l3c",
+    /*"username": "adminpvn5l3c",
     "password": "v7YHeZKXL4H2",
     "database": "expressapp",
     "host": "127.0.0.1",
-    "port": "5432",
+    "port": "5432",*/
+    "use_env_variable":"OPENSHIFT_POSTGRESQL_DB_URL",
     "dialect": "postgres",
     "define": {
        "timestamps": false
