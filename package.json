@@ -4,8 +4,7 @@
   "private": true,
   "repository":"https://github.com/mackadelic/vue-test.git",
   "scripts": {
-    "start": "node server.js",
-    "postinstall": "export HOME=/var/lib/openshift/57375f0f7628e18f350001e5/app-root/runtime/repo; ./node_modules/bower/bin/bower install"
+    "start": "node server.js"
   },
   "main": "server.js",
   "dependencies": {
