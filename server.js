@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('app');
+var app = require('./app');
 var debug = require('debug')('express-be:server');
 var http = require('http');
 
@@ -26,8 +26,8 @@ var server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
-server.listen(server_port, server_ip_address, function(){
-  console.log("Listening on " + server_ip_address + ", server_port " + server_port)
+server.listen(port, ip_address, function(){
+  console.log("Listening on " + ip_address + ", server_port " + port)
 });
 //server.listen(port);
 server.on('error', onError);
